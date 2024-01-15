@@ -1,0 +1,7 @@
+preprocess.py中
+	pipeline()
+	生成features，每一个block，生成文件在../preprocessed_data/features/对应分类/对应flow/block.csv中
+	get_data_stat()
+	生成block对应的label，生成文件在../preprocessed_data/data_stat/total.csv中
+	split()
+	对total.csv进行划分，先按照0.2、0.8划分测试集，然后在测试集按照0.2、0.8划分验证机
